@@ -1,0 +1,10 @@
+.hello-div{
+    color: red;
+    background-color: yellow;
+    font-size: xx-large;
+    transition: 0.2s ease-in-out;
+}
+
+.hello-div:hover{
+    background-color: green;
+}
