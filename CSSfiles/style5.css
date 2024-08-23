@@ -1,0 +1,41 @@
+.pl {
+  display: inline-block;
+}
+.pl button {
+  background-color: crimson;
+  color: black;
+  padding: 10px;
+
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.pl a {
+  text-decoration: none;
+  color: rgb(24, 42, 103);
+  padding: 10px;
+}
+.pl a {
+  display: block;
+  border: solid 3px rgb(149, 131, 131);
+  border-radius: 12px;
+  padding: 5px;
+}
+.subbuttons {
+  display: none;
+  background-color: blanchedalmond;
+  position: absolute;
+  padding: 15px;
+  border: solid 3px rgb(132, 131, 131);
+  box-shadow: 3px 3px 10px grey, -3px -3px 10px grey;
+  border-radius: 8px;
+}
+.pl button:hover {
+  background-color: blueviolet;
+  box-shadow: 5px 5px 9px blueviolet, -5px -5px 9px blueviolet;
+}
+.pl:hover .subbuttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

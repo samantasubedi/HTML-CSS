@@ -1,0 +1,12 @@
+h1 {
+    text-shadow: 4px 4px 5px rgb(62, 62, 190), -5px -5px 6px rgb(205, 33, 33);
+}
+
+#tim {
+    height: 200px;
+    width: 200px;
+    color: rgb(105, 104, 104);
+    background-color: beige;
+    box-shadow: 5px 5px 6px rgb(93, 203, 93), -5px -5px 6px red;
+    margin: auto;
+}

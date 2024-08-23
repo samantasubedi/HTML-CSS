@@ -1,0 +1,10 @@
+.mon {
+    height: 150px;
+    width: 150px;
+    background-color: khaki;
+    border-style: solid;
+    border-color: rgb(21, 105, 251);
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}

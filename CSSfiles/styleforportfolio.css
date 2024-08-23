@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap");
+body {
+  background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg);
+}
+* {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.topline {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(136, 0, 255);
+  text-align: center;
+}
+.aboutsection {
+  height: 200px;
+  width: 400px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 10px;
+  padding: 20px;
+
+  background-image: url(./images-and-audio-files/about.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.top {
+  font-size: 22px;
+  font-style: italic;
+  color: rgb(47, 46, 46);
+  font-weight: bold;
+}
+.paragraph {
+  font-size: 18px;
+  color: darkblue;
+  font-weight: bold;
+}
+.skills {
+  border: 1px solid black;
+  box-shadow: 3px 3px 9px 1px rgb(49, 38, 35), -3px -3px 9px 1px rgb(72, 62, 59);
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  padding: 20px;
+  background-image: url(./images-and-audio-files/skills.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skilltop {
+  font-size: 22px;
+  color: rgb(47, 46, 46);
+  font-style: italic;
+  font-weight: bold;
+}
+.par {
+  font-size: 18px;
+  color: darkblue;
+}
+.facebooklogo {
+  font-size: 40px;
+  position: fixed;
+  top: 650px;
+  left: 700px;
+  color: rgb(16, 23, 225);
+}
+.instagramlogo {
+  font-size: 40px;
+  position: fixed;
+  top: 650px;
+  left: 770px;
+}
+.social {
+  font-size: 44px;
+  color: crimson;
+  text-shadow: 2px 2px 1px red, -2px -2px 1px red;
+  position: fixed;
+  top: 550px;
+  left: 630px;
+}
+.image img {
+  width: 300px;
+  height: auto;
+  position: fixed;
+  top: 100px;
+  left: 700px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 4px grey, -1px -1px 4px grey;
+}

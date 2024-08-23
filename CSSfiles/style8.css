@@ -1,0 +1,25 @@
+.button:hover {
+  scale: 0.98;
+  color: green;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  /* width: 30%; */
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+.button {
+  background-color: rgb(237, 154, 154);
+  font-size: 40px;
+  font-weight: bold;
+  height: fit-content;
+  width: 200px;
+  color: chocolate;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+#btn{
+    background-color:rgb(26, 22, 22);
+    color:greenyellow;
+    font-size:35px;
+    box-shadow:5px 5px 9px green ,-5px -5px 9px blueviolet;
+    padding:6px;
+    border-radius:10px;
+    border:none;
+    transition:box-shadow 0.4s;
+}
+#btn:hover{
+    box-shadow: 10px 10px 12px green,-10px -10px 12px blueviolet;
+}
+
+
+
+#sop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+body{
+    background-color:rgb(243, 202, 202);
+}

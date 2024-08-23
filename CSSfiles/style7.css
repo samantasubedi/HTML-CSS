@@ -1,0 +1,15 @@
+.home {
+  font-size: 60px;
+  color: rgb(8, 7, 7);
+  display: inline-block; /*only uses the space required for that element */
+}
+.home:hover {
+  font-size: 75px;
+}
+.sie {
+  display: none;
+}
+.home:hover + .sie {
+  display: inline-block;
+  opacity: 1;
+}
