@@ -2,6 +2,7 @@ let t;
 document.getElementById("in-celsius").addEventListener("input", () => {
   let c = Number(document.getElementById("in-celsius").value);
   if (c < -273.5) {
+    document.getElementById("in-far");
     document.getElementById("output").textContent =
       "Temperature can't be less than -273.5 degree celsius";
     output.display.display = "flex";
